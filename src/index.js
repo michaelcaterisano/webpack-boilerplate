@@ -1,10 +1,4 @@
-import { add } from "./whatever";
-
-const heyMan = (name) => {
-  console.log(name);
-  return name;
-};
-
-const result = add(1, 2, 3);
-console.log(result);
-console.log("from index");
+const app = document.querySelector("#app");
+const message = document.createElement("h1");
+message.innerText = "Hello world!";
+app.appendChild(message);
